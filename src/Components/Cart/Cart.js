@@ -6,23 +6,6 @@ import { useNavigate  } from 'react-router-dom'
 
 import { Card, CardContent, Typography, Button, List, ListItem, ListItemText, Divider } from '@mui/material';
 
-/* function Cart() {
-  const { cart } = useContext(CartContext);
-
-  return (
-    <div>
-      <h2>Shopping Cart</h2>
-      {cart.map((item, index) => (
-        <div key={index}>
-          <h3>{item.name}</h3>
-          <p>Quantity: {item.quantity}</p>
-          <p>Price: ${item.price}</p>
-        </div>
-      ))}
-    </div>
-  );
-} */
-
 function Cart() {
   const { cart } = useContext(CartContext);
   const navigate = useNavigate();

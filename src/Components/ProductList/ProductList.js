@@ -1,7 +1,6 @@
 // ProductList.js
 import React, { useState } from 'react';
 import ProductItem from '../ProductItem/ProductItem';
-import { Card, CardContent, Typography, Box, Button } from '@mui/material';
 
 function ProductList() {
   const [products] = useState([
